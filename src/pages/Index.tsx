@@ -1,13 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import HeroSection from "@/components/HeroSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import SkillsSection from "@/components/SkillsSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <Helmet>
+        <title>José Ricardo | Analista de Dados - Power BI & Excel Avançado</title>
+        <meta 
+          name="description" 
+          content="Portfólio de José Ricardo Teixeira Santos Junior - Analista de Dados especializado em Power BI, DAX e Excel Avançado. Transformando dados em inteligência de negócio." 
+        />
+        <meta name="keywords" content="Analista de Dados, Power BI, DAX, Excel Avançado, Business Intelligence, ETL, Dashboard" />
+        <link rel="canonical" href="https://joserictardo.dev" />
+      </Helmet>
+
+      <main className="min-h-screen bg-background">
+        <HeroSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <Footer />
+      </main>
+    </>
   );
 };
 

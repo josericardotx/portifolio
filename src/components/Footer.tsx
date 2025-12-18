@@ -1,0 +1,61 @@
+import { Button } from "@/components/ui/button";
+import { Linkedin, Mail, Github, BarChart3 } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="py-16 px-6 border-t border-border relative">
+      {/* Subtle gradient */}
+      <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent pointer-events-none" />
+
+      <div className="container mx-auto max-w-4xl relative z-10">
+        <div className="flex flex-col items-center text-center space-y-8">
+          {/* Logo/Brand */}
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+              <BarChart3 className="w-5 h-5 text-primary" />
+            </div>
+            <span className="text-xl font-semibold">José Ricardo</span>
+          </div>
+
+          {/* Tagline */}
+          <p className="text-muted-foreground max-w-md">
+            Pronto para transformar seus dados em decisões estratégicas? Vamos conversar!
+          </p>
+
+          {/* Social buttons */}
+          <div className="flex items-center gap-4">
+            <Button variant="outline" size="lg" asChild className="gap-2">
+              <a 
+                href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-66501b1b2/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-5 h-5" />
+                LinkedIn
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild className="gap-2">
+              <a href="mailto:jricardo.teix@gmail.com">
+                <Mail className="w-5 h-5" />
+                E-mail
+              </a>
+            </Button>
+          </div>
+
+          {/* Divider */}
+          <div className="w-full h-px bg-border" />
+
+          {/* Copyright */}
+          <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4 text-sm text-muted-foreground">
+            <p>© {new Date().getFullYear()} José Ricardo Teixeira Santos Junior</p>
+            <p className="flex items-center gap-1">
+              Feito com <span className="text-primary">♥</span> e muitos dados
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
