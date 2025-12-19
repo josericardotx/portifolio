@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Linkedin, Mail, Github, BarChart3 } from "lucide-react";
+import { Linkedin, Mail, BarChart3 } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="flex items-center gap-4">
             <Button variant="outline" size="lg" asChild className="gap-2">
               <a 
-                href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-66501b1b2/" 
+                href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-256407264" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -35,7 +35,7 @@ const Footer = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild className="gap-2">
-              <a href="mailto:jricardo.teix@gmail.com">
+              <a href="mailto:josericardojuniorte@gmail.com">
                 <Mail className="w-5 h-5" />
                 E-mail
               </a>

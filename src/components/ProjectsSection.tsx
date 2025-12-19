@@ -6,23 +6,27 @@ const projects = [
     category: "Comercial",
     description: "Análise completa do funil de vendas, performance comercial e tendências de mercado com insights acionáveis.",
     highlight: "Automatização de propostas e análise de mercado",
+    // Link de Vendas (Mantido)
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiYjYyZjA5YTctOTc0Ny00NGUwLTljMGMtMmRjYzA4NTdiMDMwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
     icon: "sales" as const,
   },
   {
-    title: "Dashboard Operacional",
-    category: "Saúde",
-    description: "Monitoramento em tempo real de indicadores operacionais, produtividade e gestão de processos.",
-    highlight: "Controle de produtividade e redução de atrasos",
-    powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjM5NTczODEtMjRlMC00OTk2LWJiYTEtNTQ0OTNjZDEzMWMyIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
-    icon: "health" as const,
+    title: "Dashboard de SAC / Atendimento",
+    category: "Operacional",
+    description: "Monitoramento de tickets de atendimento, tempo médio de resposta (SLA) e índices de satisfação do cliente.",
+    highlight: "Controle de filas e redução de SLA",
+    // Link Trocado (Este estava no Financeiro antes)
+    powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDVhYTU3ZGYtZjdhNC00NTM4LWE0ZjAtODFmYjVhNzFiZGJmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
+    // Mudei o ícone de "health" para "management" para combinar com SAC
+    icon: "management" as const,
   },
   {
     title: "Dashboard Financeiro",
     category: "Finanças",
     description: "Visão consolidada de receitas, despesas, metas financeiras e indicadores-chave de performance.",
     highlight: "Monitoramento de metas e KPIs financeiros",
-    powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDVhYTU3ZGYtZjdhNC00NTM4LWE0ZjAtODFmYjVhNzFiZGJmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
+    // Link Trocado (Este estava no Operacional/Saúde antes)
+    powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjM5NTczODEtMjRlMC00OTk2LWJiYTEtNTQ0OTNjZDEzMWMyIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
     icon: "finance" as const,
   },
   {
@@ -30,6 +34,7 @@ const projects = [
     category: "Performance",
     description: "Análise estratégica com visão interna vs. externa, métricas de performance e tomada de decisão.",
     highlight: "Visão interna vs. externa e performance operacional",
+    // Link de Gestão (Mantido)
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiYzBjZTQ5YTgtMjIyNS00OTcyLThlYzEtYmMwNzc4ZWQ1MDExIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
     icon: "management" as const,
   },
