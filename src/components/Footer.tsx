@@ -17,26 +17,26 @@ const Footer = () => {
             <span className="text-xl font-semibold">José Ricardo</span>
           </div>
 
-          {/* Tagline */}
+          {/* Tagline Principal */}
           <p className="text-muted-foreground max-w-md">
-            Pronto para transformar seus dados em decisões estratégicas? Vamos conversar!
+            Pronto para otimizar sua operação? Vamos conversar sobre como os dados podem alavancar seus resultados.
           </p>
 
           {/* Social buttons */}
           <div className="flex items-center gap-4">
-            <Button variant="outline" size="lg" asChild className="gap-2">
+            <Button variant="outline" size="lg" asChild className="gap-2 hover:border-primary/50 transition-colors">
               <a 
-                href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-256407264" 
+                href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-256407264/" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5 text-blue-600" />
                 LinkedIn
               </a>
             </Button>
-            <Button variant="outline" size="lg" asChild className="gap-2">
+            <Button variant="outline" size="lg" asChild className="gap-2 hover:border-primary/50 transition-colors">
               <a href="mailto:josericardojuniorte@gmail.com">
-                <Mail className="w-5 h-5" />
+                <Mail className="w-5 h-5 text-red-500" />
                 E-mail
               </a>
             </Button>
@@ -45,11 +45,13 @@ const Footer = () => {
           {/* Divider */}
           <div className="w-full h-px bg-border" />
 
-          {/* Copyright */}
+          {/* Copyright & Posicionamento Estratégico */}
           <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4 text-sm text-muted-foreground">
             <p>© {new Date().getFullYear()} José Ricardo Teixeira Santos Junior</p>
+            
+            {/* AQUI ESTÁ A MUDANÇA ESTRATÉGICA */}
             <p className="flex items-center gap-1">
-              Feito com <span className="text-primary">♥</span> e muitos dados
+              Focado em <span className="text-primary font-semibold">Performance e Inteligência de Negócio</span>
             </p>
           </div>
         </div>
