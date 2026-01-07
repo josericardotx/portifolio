@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
@@ -19,12 +18,12 @@ export default defineConfig(({ mode }) => ({
     },
   },
   
-  // --- CORREÇÃO INTELIGENTE ---
-  // Se for "production" (Build para GitHub), usa "/portifolio/"
-  // Se for "development" (Local no seu PC), usa "/" (raiz normal)
+  // --- A CORREÇÃO ESTÁ AQUI ---
+  // Se for build (Online) usa "/portifolio/"
+  // Se for dev (Local) usa "/"
   base: mode === "production" ? "/portifolio/" : "/", 
   
   build: {
-    outDir: "docs", // Manda o site pronto para a pasta 'docs'
+    outDir: "docs", 
   },
-}));  
+}));
