@@ -1,6 +1,6 @@
 # 📊 Portfólio de Dados | José Ricardo
 
-Bem-vindo ao repositório do meu portfólio profissional! Este projeto foi desenvolvido para centralizar e demonstrar meus projetos de **Análise de Dados**, **Business Intelligence** e **Automação**.
+> ⚠️ **Nota:** Este repositório contém o código-fonte do meu portfólio profissional. Embora desenvolvido em React, **meu foco profissional é 100% em Análise de Dados e Business Intelligence**. Utilizei a programação web apenas como ferramenta para apresentar meus dashboards.
 
 🔗 **Acesse o site online:** [https://josericardotx.github.io/portifolio/](https://josericardotx.github.io/portifolio/)
 
