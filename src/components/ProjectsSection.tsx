@@ -7,7 +7,8 @@ const projects = [
     description: "Análise completa do funil de vendas, performance comercial e tendências de mercado com insights acionáveis.",
     highlight: "Automatização de propostas e análise de mercado",
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiYjYyZjA5YTctOTc0Ny00NGUwLTljMGMtMmRjYzA4NTdiMDMwIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
-    imagePath: "/dash-vendas.jpg", // <--- NOME DO ARQUIVO NA PASTA PUBLIC
+    // CORREÇÃO: Adicionado import.meta.env.BASE_URL
+    imagePath: `${import.meta.env.BASE_URL}dash-vendas.jpg`,
     icon: "sales" as const,
   },
   {
@@ -16,7 +17,8 @@ const projects = [
     description: "Monitoramento de tickets de atendimento, tempo médio de resposta (SLA) e índices de satisfação do cliente.",
     highlight: "Controle de filas e redução de SLA",
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDVhYTU3ZGYtZjdhNC00NTM4LWE0ZjAtODFmYjVhNzFiZGJmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
-    imagePath: "/dash-sac.jpg", // <--- NOME DO ARQUIVO NA PASTA PUBLIC
+    // CORREÇÃO: Adicionado import.meta.env.BASE_URL
+    imagePath: `${import.meta.env.BASE_URL}dash-sac.jpg`,
     icon: "management" as const,
   },
   {
@@ -25,7 +27,8 @@ const projects = [
     description: "Visão consolidada de receitas, despesas, metas financeiras e indicadores-chave de performance.",
     highlight: "Monitoramento de metas e KPIs financeiros",
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjM5NTczODEtMjRlMC00OTk2LWJiYTEtNTQ0OTNjZDEzMWMyIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
-    imagePath: "/dash-financeiro.jpg", // <--- NOME DO ARQUIVO NA PASTA PUBLIC
+    // CORREÇÃO: Adicionado import.meta.env.BASE_URL
+    imagePath: `${import.meta.env.BASE_URL}dash-financeiro.jpg`,
     icon: "finance" as const,
   },
   {
@@ -34,7 +37,8 @@ const projects = [
     description: "Análise estratégica com visão interna vs. externa, métricas de performance e tomada de decisão.",
     highlight: "Visão interna vs. externa e performance operacional",
     powerBiUrl: "https://app.powerbi.com/view?r=eyJrIjoiYzBjZTQ5YTgtMjIyNS00OTcyLThlYzEtYmMwNzc4ZWQ1MDExIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9",
-    imagePath: "/dash-gestao.jpg", // <--- NOME DO ARQUIVO NA PASTA PUBLIC
+    // CORREÇÃO: Adicionado import.meta.env.BASE_URL
+    imagePath: `${import.meta.env.BASE_URL}dash-gestao.jpg`,
     icon: "management" as const,
   },
 ];

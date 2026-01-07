@@ -42,7 +42,6 @@ const HeroSection = () => {
                 <a href="https://www.linkedin.com/in/jos%C3%A9-ricardo-teixeira-santos-junior-256407264/" target="_blank" rel="noreferrer" className="p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors border border-border">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                {/* LINK DO GITHUB CORRIGIDO */}
                 <a href="https://github.com/josericardotx" target="_blank" rel="noreferrer" className="p-3 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors border border-border">
                   <Github className="w-5 h-5" />
                 </a>
@@ -58,17 +57,17 @@ const HeroSection = () => {
               
               {/* Foto Container */}
               <div className="relative w-full h-full rounded-full border-[6px] border-background overflow-hidden shadow-2xl">
+                {/* A CORREÇÃO ESTÁ AQUI EMBAIXO: */}
                 <img 
-                  src="/profile.jpg" 
+                  src={`${import.meta.env.BASE_URL}profile.jpg`} 
                   alt="José Ricardo" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                 />
               </div>
 
-              {/* Badge 1: EXCEL & BI (Corrigido) */}
+              {/* Badge 1: EXCEL & BI */}
               <div className="absolute -bottom-4 -left-4 bg-card border border-border p-3 rounded-xl shadow-xl flex items-center gap-3 animate-bounce" style={{ animationDuration: '3s' }}>
                 <div className="bg-green-500/20 p-2 rounded-lg">
-                  {/* Ícone Nativo (Nunca quebra) */}
                   <FileSpreadsheet className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
@@ -77,7 +76,7 @@ const HeroSection = () => {
                 </div>
               </div>
 
-              {/* Badge 2: PYTHON (Mantido) */}
+              {/* Badge 2: PYTHON */}
               <div className="absolute top-10 -right-8 bg-card border border-border p-3 rounded-xl shadow-xl flex items-center gap-3 animate-bounce" style={{ animationDuration: '4s' }}>
                 <div className="bg-yellow-500/20 p-2 rounded-lg">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" className="w-6 h-6" alt="Python" />
