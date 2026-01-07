@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# 📊 Portfólio de Dados | José Ricardo
 
-## Project info
+Bem-vindo ao repositório do meu portfólio profissional! Este projeto foi desenvolvido para centralizar e demonstrar meus projetos de **Análise de Dados**, **Business Intelligence** e **Automação**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 **Acesse o site online:** [https://josericardotx.github.io/portifolio/](https://josericardotx.github.io/portifolio/)
 
-## How can I edit this code?
+## 🚀 Sobre o Projeto
 
-There are several ways of editing your application.
+Este site funciona como um "Hub de Insights". Ao invés de apenas enviar currículos em PDF, desenvolvi essa aplicação web para apresentar de forma interativa:
 
-**Use Lovable**
+* **Dashboards Power BI:** Vendas, Financeiro, SAC e Gestão.
+* **Storytelling:** Minha jornada profissional de Analista Administrativo para a área de Dados.
+* **Competências:** Demonstração prática de organização, código e visão de negócio.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠 Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+Este portfólio foi construído utilizando tecnologias modernas de desenvolvimento web, garantindo alta performance e design responsivo:
 
-**Use your preferred IDE**
+* **React** (Framework UI)
+* **TypeScript** (Linguagem)
+* **Vite** (Build tool e servidor local)
+* **Tailwind CSS** (Estilização)
+* **Shadcn/ui** (Componentes de interface profissionais)
+* **GitHub Pages** (Hospedagem e Deploy automático)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Funcionalidades
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1.  **Hero Section:** Apresentação e posicionamento estratégico como Analista de Dados.
+2.  **Sobre Mim:** Conexão entre minha experiência na Saint-Gobain e meus estudos em Data Science.
+3.  **Projetos em Destaque:** Galeria de Dashboards com links diretos para interação no Power BI e explicações de impacto no negócio.
+4.  **Skills:** Resumo técnico das ferramentas que domino (Excel, Power BI, Python, SQL).
 
-Follow these steps:
+## 💻 Como rodar localmente
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Se você quiser clonar e rodar este projeto na sua máquina para estudos:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/josericardotx/portifolio.git](https://github.com/josericardotx/portifolio.git)
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Entre na pasta do projeto
+cd portifolio
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
