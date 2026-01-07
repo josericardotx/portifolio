@@ -15,12 +15,16 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        
+        {/* AQUI ESTÁ A MÁGICA: */}
+        {/* Se for Produção (GitHub), usa '/portifolio'. Se for Local, usa '/' */}
+        <BrowserRouter basename={import.meta.env.MODE === 'production' ? '/portifolio' : '/'}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+
       </TooltipProvider>
     </QueryClientProvider>
   </HelmetProvider>
