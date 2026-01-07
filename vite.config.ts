@@ -9,10 +9,20 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [
+    react(),
+    mode === "development" && componentTagger()
+  ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  
+  // --- CONFIGURAÇÃO PARA O GITHUB PAGES (Link: /portifolio/) ---
+  base: "/portifolio/", 
+  
+  build: {
+    outDir: "docs", // Manda o site pronto para a pasta 'docs'
   },
 }));
