@@ -19,10 +19,12 @@ export default defineConfig(({ mode }) => ({
     },
   },
   
-  // --- CONFIGURAÇÃO PARA O GITHUB PAGES (Link: /portifolio/) ---
-  base: "/portifolio/", 
+  // --- CORREÇÃO INTELIGENTE ---
+  // Se for "production" (Build para GitHub), usa "/portifolio/"
+  // Se for "development" (Local no seu PC), usa "/" (raiz normal)
+  base: mode === "production" ? "/portifolio/" : "/", 
   
   build: {
     outDir: "docs", // Manda o site pronto para a pasta 'docs'
   },
-}));
+}));  
